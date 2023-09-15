@@ -1,0 +1,27 @@
+function output = OutputStructInit()
+    output.delay = [];
+    output.amplitude = [];
+    output.onset = [];
+    output.dispersion = [];
+    output.resnorm = [];
+    output.resid = [];
+    output.hrf = [];
+    output.fullhrf = [];
+    output.MaxValue = [];
+    output.MaxIndexInSeconds = [];
+    output.MinValue = [];
+    output.MinIndexInSeconds = [];
+    output.Baseline = [];
+    output.MAmplitude =[];
+    output.Range = [];
+    output.FWHMInSeconds = [];
+    output.OnsetTimeInSeconds = [];
+    output.HMPoint1InSeconds = [];
+    output.HMPoint2InSeconds = [];
+    output.PeakEventAvg = [];
+    output.TimeToPeakEvAvg = [];
+    output.StimDur = [];
+    output.StimInt = [];
+    output.Iter = [];
+    output.BootSam = [];
+end
